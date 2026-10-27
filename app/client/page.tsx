@@ -1,4 +1,4 @@
-
+"use client";
 import { useEffect, useState } from "react";
 
 function useCountUp(target: number, duration = 1200, start = 0, trigger = true) {
@@ -256,4 +256,3 @@ export default function ClientProofDashboard() {
     </div>
   );
 }
-
